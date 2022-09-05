@@ -18,7 +18,6 @@ public class StepImplementation extends BaseTest{
     @Step("Uygulamayı aç ve açıldığını kontrol edilir")
     public void appControl(){
         methods.waitBySeconds(8);
-        loginPage = new LoginPage();
         loginPage.isAppOpen("Enable location services to fully personalise your experience");
     }
 

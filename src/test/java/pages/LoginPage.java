@@ -6,12 +6,11 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 
 public class LoginPage extends BaseTest {
-    Methods method;
+    Methods method = new Methods();
     By loginScreenElement = By.id("com.m.qr:id/main_text");
-    By skipButton = By.id("com.m.qr:id/skip_button");
+    private final static By skipButton = By.id("com.m.qr:id/skip_button");
     By onboardingSkip = By.id("com.m.qr:id/onboarding_skip_button");
     By consentDecline = By.id("com.m.qr:id/push_consent_decline");
-
     By bookTab = By.xpath("//android.widget.FrameLayout[@content-desc=\"Book\"]/android.widget.FrameLayout/android.widget.ImageView");
 
     public void isAppOpen(String text){

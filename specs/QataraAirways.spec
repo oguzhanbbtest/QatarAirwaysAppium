@@ -12,7 +12,6 @@ Qatar Airways Mobile App Scenario
 * Kalkış havaalanı olarak Berlin seçilir.
 * Varış havaalanı olarak Istanbul seçilir.
 * Bugünün Tarihinde +7 gün olarak bir gidiş tarihi seçilir
-* Economy class seçeneğine tıklanır
 * Arama butonuna tıklanır
 * Uçuş seçim ekranının geldiği kontrol edilir
 * Rastgele bir uçuş seçilir.
