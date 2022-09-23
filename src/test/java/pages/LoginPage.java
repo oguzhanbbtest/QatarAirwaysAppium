@@ -25,7 +25,6 @@ public class LoginPage extends BaseTest {
         method.clickElement(onboardingSkip);
         method.waitBySeconds(8);
         method.clickElement(consentDecline);
-
     }
 
     public void switchBookTab() {

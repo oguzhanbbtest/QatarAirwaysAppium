@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 
 public class FlyPage extends BaseTest {
 
+
     Methods method;
     By fly = By.id("com.m.qr:id/rvmp_item_search_result_root_view");
     By selectEco = By.id("com.m.qr:id/fragment_rtow_flight_cabin_class_text_view");
@@ -15,7 +16,6 @@ public class FlyPage extends BaseTest {
     public void selectRandomFly() {
         method.clickRandomElement(fly);
     }
-
     public void selectEconomyClass() {
         method.clickElement(selectEco);
         method.waitBySeconds(3);
