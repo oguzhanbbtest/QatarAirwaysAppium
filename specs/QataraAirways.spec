@@ -4,7 +4,6 @@ Qatar Airways MobileApp
 
 Qatar Airways Mobile App Scenario
 --------------------------------
-
 * Uygulamayı aç ve açıldığını kontrol edilir
 * Karsilama ekranı “Skip” seçeneği ile geçilir
 * Alt menüden “Book” tabına geçiş yapılır.

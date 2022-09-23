@@ -31,7 +31,7 @@ public class Methods extends BaseTest {
         appiumDriver.findElement(by).click();
         logger.info(by.toString()+ " elementine tiklandi");
     }
-    public void clickByid(String id){
+    public void clickById(String id){
         appiumDriver.findElement(By.id(id)).click();
         System.out.println("Element tıklandı.");
     }
@@ -47,7 +47,7 @@ public class Methods extends BaseTest {
 
     }
 
-    public void sendKeysByxpath(String xpath,String text){
+    public void sendKeysByXpath(String xpath, String text){
         appiumDriver.findElement(By.xpath(xpath)).sendKeys(text);
         System.out.println(text +"değeri yazıldı");
     }
