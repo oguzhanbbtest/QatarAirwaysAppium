@@ -1,4 +1,4 @@
-Getting Started with Gauge
+Qatar Airways MobileApp
 ==========================
 
 
@@ -16,3 +16,4 @@ Qatar Airways Mobile App Scenario
 * Uçuş seçim ekranının geldiği kontrol edilir
 * Rastgele bir uçuş seçilir.
 * Uçuş seçim ekranındaki uçuş saati ile uçuş detayları ekranındaki uçuş saati değeri aynı mı kontrol edilir
+
