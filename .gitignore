@@ -6,5 +6,5 @@ manifest.json
 env
 out
 logs
-reports
+/reports/
 
